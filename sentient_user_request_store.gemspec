@@ -6,12 +6,12 @@ Gem::Specification.new do |gem|
   gem.email         = ["dbock@javaguy.org"]
   gem.description   = %q{lets the User model in most authentication frameworks know who is the current user}
   gem.summary       = %q{A trivial bit of common code}
-  gem.homepage      = "http://github.com/bokmann/sentient_user"
+  gem.homepage      = "http://github.com/house9/sentient_user_request_store"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  gem.name          = "sentient_user"
+  gem.name          = "sentient_user_request_store"
   gem.require_paths = ["lib"]
   gem.version       = SentientUser::VERSION
 
