@@ -7,6 +7,9 @@ How often have you needed to access the current user in your models?  This happe
 * Should fashions change in this area in Rails' future, I want one place to change it, and to keep my methods working.
 * This concept generally breaks in the console, where there is no controller to set the user.  This gem adds a make_current method on the user instance, so you can choose to find a user and execute the current_user method.  That could be really useful in rake tasks, for instance.
 
+== Fork Notes
+
+This fork of [sentient_user](https://github.com/bokmann/sentient_user) uses [request_store](https://github.com/steveklabnik/request_store) instead of `Thread.current`.
 
 == Usage
 * include SentientUser in your user model
