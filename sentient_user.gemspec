@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = SentientUser::VERSION
 
   gem.add_dependency "railties", ">= 3.1"
-  gem.add_dependency 'request_store', '1.1'
+  gem.add_dependency 'request_store', '1.4.1'
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "rdoc"
@@ -27,5 +27,3 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "simplecov"
 
 end
-
-
